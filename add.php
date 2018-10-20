@@ -21,6 +21,6 @@ if ($_POST['submit']){
     if(false==$re){
     	echo mysqli_errno($link).mysqli_error($link);
     }
-   // echo "<script>alert('提交成功！返回首页。');location.href='add.html';</script>";
+   echo "<script>alert('提交成功！返回首页。');location.href='add.html';</script>";
 }
 ?>
