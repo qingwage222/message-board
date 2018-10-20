@@ -21,6 +21,9 @@
          <tr bgColor="#ffffff">
              <td>发表内容:<?php echo $row['content'];?></td>
          </tr>
+         <tr bgcolor="#f0fff0">
+            <td><div align="left"><a href="del.php?id=$row['id']">删除留言</a> </td>
+         </tr>
          <tr bgColor="#ffffff">
              <td><div align="right">时间:<?php echo $row['lastdate'];?></td>
          </tr>
